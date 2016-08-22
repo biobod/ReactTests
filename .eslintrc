@@ -1,0 +1,29 @@
+
+{
+  "extends": "airbnb",
+  "installedESLint": true,
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
+
+  "rules": {
+    "semi": 0,
+    "linebreak-style": 0,
+    "no-param-reassign": 0,
+    "no-var": 0,
+    "new-cap": 0,
+    "no-underscore-dangle":0,
+    "no-unused-vars": 0,
+    "comma-dangle":["error", "never"]
+
+  },
+  "settings": {
+    "import/resolve": {
+      "extenstions": [
+        ".es5",
+        ".js",
+        ".jsx"
+      ]
+    }
+  }
+}
