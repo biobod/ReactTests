@@ -1,5 +1,10 @@
 
 {
+  "plugins": [
+    "react",
+    "babel"
+  ],
+  "parser": "babel-eslint",
   "extends": "airbnb",
   "installedESLint": true,
   "parserOptions": {
@@ -15,15 +20,5 @@
     "no-underscore-dangle":0,
     "no-unused-vars": 0,
     "comma-dangle":["error", "never"]
-
-  },
-  "settings": {
-    "import/resolve": {
-      "extenstions": [
-        ".es5",
-        ".js",
-        ".jsx"
-      ]
-    }
   }
 }
