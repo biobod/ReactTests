@@ -105,7 +105,7 @@ class TestQuestions extends Component {
       questionBase, nextQuestion,
     } = this
     return (
-      <div>
+      <div id="question-div">
         {questionBase(questionNumber)}
         <input type="button" value="Следующий sвопрос" onClick={nextQuestion} />
       </div>
