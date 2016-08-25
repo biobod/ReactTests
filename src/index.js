@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import CounterReact from './CounterReact';
 import TestQuestions from './tests';
+import HomePage from './homePage'
 
 ReactDOM.render(
-  <TestQuestions />,
+  <HomePage />,
   document.getElementById('main-div')
-);
+)
